@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    color: black;
+    background-color: firebrick;
+}
+
+header {
+    min-height: 10vh;
+    margin: 20px;
+    background-color: dodgerblue;
+}
+
+main {
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: yellow;
+}
