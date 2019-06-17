@@ -3,9 +3,10 @@
 
 <head lang="pt-br">
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, height=device-height">
+	<meta name="viewport" content="width=device-width">
 	<title>Robótica com lego!</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/robotica-1.png" type="image/x-icon" />
 </head>
 
 <body>
@@ -20,28 +21,156 @@
 		<!-- menu do site -->
 		<nav id="menu">
 			<ul>
-				<li><a href="index.html">Início</a></li>
-				<li><a href="">NXT</a></li>
-				<li><a href="">Arduíno</a></li>
-				<li><a href="">Programação</a></li>
+				<li class="hover"><a href="index.html">Início</a></li>
+                <li class="hover"><a href="src/nxt.html">NXT</a></li>
+                <li class="hover"><a href="src/arduino.html">Arduíno</a></li>
+                <li class="hover"><a href="src/programacao.html">Programação</a></li>
 			</ul>
 		</nav>
 
 		<!-- desenvolvedor do site -->
 		<section id="sobre">
-			<a href="">Equipe</a>
+			<a class="hover" href="src/equipe.html">Equipe</a>
 		</section>
 	</header>
 
 	<!-- CORPO -->
 	<main id="main">
+		<section class="column">
+			<h1>Competições de robótica</h1>
+			<p class="paragrafo">Ficando cada vez mais popular no Brasil, as batalhas de robos são competições em que
+				duas ou mais
+				máquinas se enfrentam em um campo de batalha, até restar apenas uma funcionando. E para isso, diversos
+				técnicas envolvendo as mais diversas áreas da robótica são utilizadas. Na maior parte dos casos, essas
+				competições envolvem veículos de controle remoto e não propriamente robos autônomos. Esses combates
+				fazem tanto sucesso nos Estados Unidos que são televisionados e têm direito a campeonatos, patrocínio e
+				até mesmo comentaristas profissionais. E o desenvolvimento desses robos não é feito apenas por grandes
+				engenheiros ou empresas especializadas: existem diversos campeonatos alternativos, que admitem a
+				inscrição de pessoas das mais diversas idades e profissões. O mais interessante por trás das batalhas de
+				robos é a resolução de problemas, o pensamento lógico e a utilização inteligente de informações sobre os
+				oponentes e a arena envolvida. Ou seja, qualquer pessoa tem a capacidade de aprender a fabricar robos e
+				participar de competições.</p>
+		</section>
 
+		<section class="column">
+			<h1>Modalidades</h1>
+			<section class="section-box column center">
+				<h2 class="title-underline">Seguidor de trilha</h2>
+				<p class="paragrafo">A modalidae de Seguidor de Trilha, também chamado de seguidor de linha, é a que
+					mais está presente nas competições por causa da sua praticidade e que atrai o olhar de todos. O
+					objetivo é construir um robo autônomo capaz de seguir uma linha em contraste com o restante do
+					piso,
+					normalmente feita de fita preta em um piso de madeira com revestimento branco; sendo considerado
+					ganhador o robo capaz de realizar o circuito em menor tempo.</p>
+				<figure>
+					<img src="img/pista-trilha.png" alt="" width="800">
+					<figcaption>Exemplo de pista de um robo seguidor de trilha</figcaption>
+				</figure>
+				<h3>Regras</h3>
+				<p class="paragrafo">Há algumas variações nas regras para demais locais de competições. Aqui vamos
+					mostrar as regras utilizadas no desafio CEEP Cascavel 2018, realizado em conjunto com a 1ª
+					Technovação e 10ª Innovacities em apoio da Fundetec:</p>
+				<ul class="">
+					<li class="box">robo autônomo</li>
+					<li class="box">Peso máximo&#013; 1000g</li>
+					<li class="box">Dimensões máximas: 20cm x 20cm x 18cm</li>
+				</ul>
+				<h3>Obstáculos na pista:</h3>
+				<ul>
+					<li class="box">Redutores de velocidade (lombada)</li>
+					<li class="box">Gaps (falhas na trilha de até 8 cm</li>
+					<li class="box">Túnel</li>
+					<li class="box">Cruzamentos</li>
+					<li class="box">Alteração de lógica (fita preta para branca)</li>
+					<li class="box">Curvas de 90°</li>
+					<li class="box">Rampa (subida e decida)</li>
+				</ul>
+				<h3>Exemplos</h3>
+				<figure class="image">
+					<img src="img/nxt-trilha-1.jpg" alt="" width="400" height="300">
+					<img src="img/nxt-trilha-2.JPG" alt="" width="400" height="300">
+					<img src="img/nxt-trilha-3.jpg" alt="" width="400" height="300">
+				</figure>
+			</section>
+
+			<section class="section-box column center">
+				<h2 class="title-underline">Sumô de robos</h2>
+				<p class="paragrafo">A modalidae de Sumô de robos tem por objetivo retirar o adversário da área de
+					batalha.</p>
+				<figure>
+					<img src="img/nxt-sumo-4.jpg" alt="" width="500">
+					<figcaption>Exemplo de pista de sumô de robo</figcaption>
+				</figure>
+				<h3>Regras</h3>
+				<p class="paragrafo">Há algumas variações nas regras para demais locais de competições. Aqui vamos
+					mostrar as regras utilizadas no desafio CEEP Cascavel 2018, realizado em conjunto com a 1ª
+					Technovação e 10ª Innovacities em apoio da Fundetec:</p>
+				<ul class="">
+					<li class="box">Robo autônomo</li>
+					<li class="box">Peso máximo&#013; 5000g</li>
+					<li class="box">Dimensões máximas: 30cm x 30cm</li>
+				</ul>
+				<h3>Exemplos</h3>
+				<figure class="image">
+					<img src="img/nxt-sumo-1.jpg" alt="" width="400" height="300">
+					<img src="img/nxt-sumo-2.jpg" alt="" width="400" height="300">
+					<img src="img/nxt-sumo-3.jpg" alt="" width="400" height="300">
+				</figure>
+			</section>
+
+			<section class="section-box column center">
+				<h2 class="title-underline">Robo na corda</h2>
+				<p class="paragrafo">A modalidae de Robo na Corda consiste em um robo pendurado em uma corda tendo este
+					que ir e voltar ao longo do fio esticado, vencendo aquele que fizer o percurso em menor tempo.</p>
+				<figure>
+					<img src="img/arduino-corda-1.jpg" alt="" width="500">
+					<figcaption>Exemplo da pista de um robo na corda</figcaption>
+				</figure>
+				<h3>Regras</h3>
+				<p class="paragrafo">Há algumas variações nas regras para demais locais de competições. Aqui vamos
+					mostrar as regras utilizadas no desafio CEEP Cascavel 2018, realizado em conjunto com a 1ª
+					Technovação e 10ª Innovacities em apoio da Fundetec:</p>
+				<ul class="">
+					<li class="box">Robo autônomo</li>
+					<li class="box">Peso máximo 1000g</li>
+					<li class="box">Limite no sentido da corda em 50cm</li>
+				</ul>
+			</section>
+
+			<section class="section-box column center">
+				<h2 class="title-underline">Robo na corda</h2>
+				<p class="paragrafo">Esta modalidade é semelhante ao sumô de robos, mas ao invés de autônomos estes robos são controlados por um dos membros da equipe. Vence aquele que derrubar o robô do adversário no espaço destinado na pista.</p>
+				<figure>
+					<img src="img/nxt-bluetooth-1.jpeg" alt="" width="500">
+					<figcaption>Exemplo da arena bluetooh</figcaption>
+				</figure>
+				<h3>Regras</h3>
+				<p class="paragrafo">Há algumas variações nas regras para demais locais de competições. Aqui vamos
+					mostrar as regras utilizadas no desafio CEEP Cascavel 2018, realizado em conjunto com a 1ª
+					Technovação e 10ª Innovacities em apoio da Fundetec:</p>
+				<ul class="">
+					<li class="box">Robô controlado via bluetooh (celular ou controle)</li>
+					<li class="box">Peso máximo 1000g</li>
+					<li class="box">Dimensões: 20cm x 20cm e altura de 18cm</li>
+				</ul>
+			</section>
+		</section>
+
+		<section class="column">
+			<h1>❤ My Little Baby ❤</h1>
+			<figure>
+				<img src="img/wally-1.jpg" alt="" width="500">
+				<img src="img/wally-2.jpg" alt="" width="500">
+			</figure>
+		</section>
 	</main>
 
 	<!-- RODAPÉ -->
 	<footer id="footer">
-		
-	</footer>
-</body>
-
-</html>
+		<section class="column center">
+			<h1>Referências</h1>
+			<a class="title-underline"
+				href="https://doity.com.br/technovacaoinnovacities/blog/desafio-ceep-de-robotica-2018"> -> Desafio CEEP
+				de Robótica 2018 <- </a> <a class="title-underline"
+					href="https://drive.google.com/file/d/1LsFzRuHQshNFn5tocbeCw7XnF7j9J3Py/view"> -> Regulamento <-
+						</a> </section> </footer> </body> </html>
